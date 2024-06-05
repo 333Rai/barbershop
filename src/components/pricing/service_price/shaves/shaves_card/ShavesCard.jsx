@@ -11,7 +11,7 @@ const ShavesCard = ({ title, durtn, price }) => {
 				</span>
 			</div>
 			<div className={styles.line} />
-			<span className={styles.price}>{price} руб.</span>
+			<span className={styles.price}>{price} сом</span>
 		</div>
 	);
 };

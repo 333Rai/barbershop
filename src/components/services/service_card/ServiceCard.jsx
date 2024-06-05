@@ -5,7 +5,7 @@ const ServiceCard = ({ service, price }) => {
 	return (
 		<div className={styles.serviceCard}>
 			<h3 className={styles.service__name}>{service}</h3>
-			<span className={styles.service__price}>{price} руб.</span>
+			<span className={styles.service__price}>{price} сом</span>
 		</div>
 	);
 };
