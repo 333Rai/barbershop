@@ -1,0 +1,22 @@
+.clientCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.client__name {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.client__info {
+	font-weight: 400;
+}
+
+.client__feedback {
+	margin: 15px 0;
+	max-width: 490px;
+	text-align: center;
+	font-style: italic;
+	font-weight: 300;
+}

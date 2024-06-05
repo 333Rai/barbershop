@@ -1,0 +1,22 @@
+.serviceCard {
+	width: 190px;
+	height: 190px;
+	background-color: rgba(85, 45, 37, .6);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #FFF;
+}
+
+.service__name {
+	font-size: 19px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.service__price {
+	font-size: 13px;
+	padding-top: 7px;
+}

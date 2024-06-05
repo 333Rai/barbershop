@@ -1,0 +1,40 @@
+#header {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	width: 100vw;
+	backdrop-filter: blur(7px);
+	z-index: 1;
+}
+
+.header {
+	padding: 21px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.leftPart {}
+
+.leftPart__logo {
+	font-size: 28px;
+	text-decoration: none;
+	color: #e1e1e1;
+}
+
+.rightPart {}
+
+.rightPart__list {
+	display: flex;
+	width: 470px;
+	justify-content: space-between;
+}
+
+.rightPart__item {
+	list-style: none;
+}
+
+.rightPart__link {
+	text-decoration: none;
+	font-size: 15.7px;
+	color: #e1e1e1;
+}

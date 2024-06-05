@@ -1,0 +1,14 @@
+.contacts__description {
+	max-width: 360px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.contacts__phone {
+	margin: 20px 0;
+}
+
+.contacts__workingHours {
+	margin-top: 20px;
+	text-align: center;
+}

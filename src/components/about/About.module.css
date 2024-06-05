@@ -1,0 +1,33 @@
+.about {}
+
+.about__description {
+	font-size: 18px;
+	max-width: 555px;
+	text-align: center;
+	line-height: 1.625;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed;
+}
+
+.about__background {
+	margin: 80px 0;
+	border-radius: 3px;
+}
+
+.about__infoTitle {
+	padding-top: 15px;
+	
+}
+
+.about__infoDescription {
+	max-width: 493px;
+	text-align: center;
+	font-style: italic;
+	font-weight: 300;
+	margin-top: 5px;
+}
+.about__sing {
+	width: 170px;
+	height: 70px;
+	margin-top: 45px;
+}

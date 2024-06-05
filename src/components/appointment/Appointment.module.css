@@ -1,0 +1,11 @@
+.appointment {
+
+}
+.appointment__subtitle {
+	
+}
+.appointment__description {
+	max-width: 530px;
+	text-align: center;
+	margin: 25px 0 80px 0;
+}

@@ -1,0 +1,31 @@
+.shavesCard {
+	width: 555px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #111;
+	padding: 20px 0;
+}
+
+.shavesCard:first-child {
+	padding-top: 0;
+}
+
+.shavesCard:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+.title {
+	min-width: 165px;
+	color: #552d25;
+}
+
+.duration {
+	font-size: 14px;
+	color: #151514;
+}
+
+.price {
+	font-weight: bold;
+}

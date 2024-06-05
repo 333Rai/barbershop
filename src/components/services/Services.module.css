@@ -1,0 +1,22 @@
+.services__cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 150px;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.appointment {
+	width: 190px;
+	height: 190px;
+	background-color: #552d25;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-decoration: none;
+	color: #c98a6a;
+	font-size: 21px;
+	text-align: center;
+}

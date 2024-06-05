@@ -1,0 +1,79 @@
+.appointmentForm {
+	background-color: #fff;
+	padding: 33px;
+	border-radius: 7px;
+	width: 750px;
+}
+
+.appointmentForm__content {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.appointmentForm__leftPart {
+	width: 360px;
+}
+
+.appointmentForm__rightPart {
+	width: 360px;
+}
+
+.appointmentForm__label {
+	display: block;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.appointmentForm__label:first-child {
+	margin-top: 0;
+}
+
+.appointmentForm__label:last-child {
+	margin-bottom: 0;
+}
+
+.appointmentForm__input {
+	background: #fcf9f7;
+	border: 1px solid rgba(85, 45, 35, .25);
+	padding: 15px;
+	width: 100%;
+	height: 40px;
+	border-radius: 7px;
+	font-size: 13px;
+	color: #552d25;
+}
+
+.appointmentForm__select {
+	background: #fcf9f7;
+	border: 1px solid rgba(85, 45, 35, .25);
+	padding: 0 15px;
+	width: 100%;
+	height: 40px;
+	border-radius: 7px;
+	font-size: 13px;
+	color: #552d25;
+}
+
+.appointmentForm__button {
+	margin-top: 15px;
+	padding: 15px 0;
+	color: #c98a6a;
+	background: #552d25;
+	width: 100%;
+	user-select: none;
+	vertical-align: middle;
+	touch-action: manipulation;
+	text-transform: uppercase;
+	border-radius: 7px;
+}
+
+.appointmentForm__button:hover {
+	opacity: .8;
+}
+
+.appointmentForm__button:active {
+	opacity: .9;
+}

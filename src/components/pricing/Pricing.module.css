@@ -1,0 +1,30 @@
+.pricing__buttons {
+	display: flex;
+	gap: 10px;
+	margin-top: 80px;
+}
+
+.pricing__button {
+	background-color: #977f7a;
+	padding: 11px 22px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #e1e1e1;
+}
+
+.pricing__button.active {
+	box-shadow: 0 3px 13px #111;
+}
+
+.pricing__button:hover {
+	opacity: 0.8;
+}
+
+.pricing__button:active {
+	opacity: 0.9;
+}
+
+.pricing__content {
+	min-height: 540px;
+}
